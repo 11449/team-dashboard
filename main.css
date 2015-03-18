@@ -1,0 +1,37 @@
+body {
+  background-color: #35a8e0;
+  color: #fff;
+}
+
+.reveal h1,
+.reveal h3,
+.reveal p,
+.reveal small {
+  color: #fff;
+}
+
+.reveal h1 {
+  font-weight: 700;
+}
+
+.flex-container {
+  flex: 1;
+  display: flex;
+  -webkit-display: flex;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+}
+
+.flex-item {
+  flex: 1 auto;
+  /*display: inline-flex;*/
+  position: relative;
+  justify-content: center;
+}
+
+.logo {
+  bottom: 30px;
+  position: absolute;
+  right: 35px;
+  width: 50px;
+}
